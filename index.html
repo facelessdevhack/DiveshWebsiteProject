@@ -38,40 +38,42 @@
     <title>Divesh Sir</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-      <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none"
-        >MegaMenu</a
-      >
+    <!-- NavBar Start -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-divesh">
+      <a class="navbar-brand" href="#">Navbar</a>
       <button
+        class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarContent"
-        aria-controls="navbars"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        class="navbar-toggler"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item dropdown megamenu">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
             <a
-              id="megamenu"
-              href=""
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              class="nav-link dropdown-toggle font-weight-bold text-uppercase"
-              >Products</a
             >
+              Products
+            </a>
             <div
-              aria-labelledby="megamneu"
-              class="dropdown-menu border-0 p-0 m-0"
+              class="dropdown-menu"
+              id="dp-menu"
+              aria-labelledby="navbarDropdownMenuLink"
             >
               <div class="container">
-                <div class="row bg-white rounded-0 m-0 shadow-sm">
-                  <div class="col-lg-10 col-xl-10">
+                <div class="row drop-divesh rounded-0 m-0 shadow-sm">
+                  <div class="col-lg-12 col-xl-12">
                     <div class="p-4">
                       <div class="row">
                         <div class="col-lg-6 mb-4">
@@ -79,34 +81,34 @@
                             Cloud Telephony
                           </h6>
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Voice</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Call Center</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >SMS</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Missed Call</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
-                                >Voice Broadcasting</a
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
+                                >Voice Broadcastin</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
-                                >Audio Conference</a
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
+                                >Audio Conferencing</a
                               >
                             </li>
                           </ul>
@@ -116,28 +118,28 @@
                             Business Number
                           </h6>
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Tollfree Numbers</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Mobile Number</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Long Code</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Phone Proxy</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Host Your Own Number</a
                               >
                             </li>
@@ -148,8 +150,8 @@
                             Email Marketing
                           </h6>
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Communicate, Interact and Transact with
                                 customers</a
                               >
@@ -161,23 +163,23 @@
                             Marketing Automation
                           </h6>
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Email Marketing Automation</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >SMS Marketing</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Voice Marketing</a
                               >
                             </li>
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Auto Dialer</a
                               >
                             </li>
@@ -188,8 +190,8 @@
                             Transactional Email
                           </h6>
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 >Better email Delivery for higher ROI. Spend
                                 Less Deliver More.</a
                               >
@@ -198,11 +200,11 @@
                         </div>
                         <div class="col-lg-6 mb-4">
                           <ul class="list-unstyled">
-                            <li class="nav-item">
-                              <a href="" class="nav-link text-small pb-0"
+                            <li class="nav-item" id="nav-l">
+                              <a href="/" class="nav-link text-small pb-0"
                                 ><img
-                                  src="https://sarv.com/inc/images/choose-number-img.jpg"
-                                  alt="Choose Your own Phone Number"
+                                  src="https:https://sarv.com/inc/images/choose-number-img.jpg"
+                                  alt="Choose Your Own Number"
                               /></a>
                             </li>
                           </ul>
@@ -210,48 +212,94 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div
-                    class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
-                    style="
-                      background: center center
-                        url(https://images.unsplash.com/photo-1533637267520-4dfd6aa7ee93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80)
-                        no-repeat;
-                      background-size: cover;
-                    "
-                  ></div> -->
                 </div>
               </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link font-weight-bold text-uppercase"
-              >About</a
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i"
+                    >Unified Communication</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i"
+                    >Automate & Segmentation</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">Call Center</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">Lead Generation</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">CRM Integration</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i"
+                    >Cloud Telephony Addons</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i"
+                    >Customized Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">Call Solution</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">Audio Conference</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/" class="nav-link" id="nav-i">Dot / On-Premises</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link font-weight-bold text-uppercase"
-              >Services</a
-            >
+            <a href="/" class="nav-link nav-top-links">Industries</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link font-weight-bold text-uppercase"
-              >Contact</a
-            >
+            <a href="/" class="nav-link nav-top-links">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link nav-top-links">Become A Partner</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link nav-top-links">Resource</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link nav-top-links" id="offerbtn">Offer</a>
           </li>
         </ul>
       </div>
     </nav>
     <section class="jumbotron-animated">
       <div>
-        <div class="container front">
-          <div class="row">
-            <div class="col-6">
-              <h1>Intelligent Solutions for Businesses</h1>
-              <p>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-6 col-md-12 col-xs-12 left hasblur">
+              <h1 class="heading">Intelligent Solutions for Businesses</h1>
+              <p id="heading-para">
                 Centralized Thought of
                 <span class="typewriter">Sarv.com</span>
               </p>
-              <p>
+              <p id="heading-para">
                 We believe in completeness, a unified communication platform for
                 all kind of businesses, it can be either Enterprises, Startups
                 or small shops.
@@ -263,7 +311,402 @@
                 </button>
               </div>
             </div>
-            <div class="col-6"></div>
+            <div class="col-lg-6 col-md-10 col-xs-12 headerrgt">
+              <div class="mobileheaderimg"></div>
+              <div class="headerflow">
+                <div class="work_flow">
+                  <div class="cloud_telephony hasblur">
+                    <p>Cloud<br />Telephony</p>
+                  </div>
+                  <div class="lineone linkblur hasblur"></div>
+                  <div class="linetwo linkblur hasblur"></div>
+                  <div class="linethree linkblur hasblur"></div>
+                  <div class="linefour linkblur hasblur"></div>
+                  <div class="linefive linkblur hasblur"></div>
+                  <div class="linesix linkblur hasblur"></div>
+                  <div class="services">
+                    <div class="virtual">
+                      <a
+                        class="linkblur hasblur"
+                        href="https://sarv.com/hosted-ivr"
+                      >
+                        <span class="icon-img iconvirtual-rec"></span>Virtual
+                        Receptionist</a
+                      >
+                      <div class="popup-over blur">
+                        <h2 class="purple">
+                          <a class="link" href="https://sarv.com/hosted-ivr"
+                            ><div
+                              class="icon-img iconvirtual-rec-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -8px;
+                              "
+                            >
+                              Virtual Receptionist
+                            </div></a
+                          >
+                        </h2>
+                        <p>
+                          A web-based automated Virtual Receptionist / Hosted
+                          IVR system that provides "a" unique customer
+                          experience.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="missed_call">
+                      <a
+                        class="linkblur hasblur"
+                        href="https://sarv.com//missedcall-alert/"
+                      >
+                        <span class="icon-img iconmissedcall"></span>Missed
+                        Call</a
+                      >
+                      <div class="popup-over blur">
+                        <h2 class="red">
+                          <a
+                            class="link"
+                            href="https://sarv.com//missedcall-alert/"
+                            ><div
+                              class="icon-img iconmissedcall-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -9px;
+                              "
+                            >
+                              Missed Call
+                            </div></a
+                          >
+                        </h2>
+                        <p>
+                          A single, integrated platform providing best solutions
+                          for Telecommunication. Grab leads in just a ring.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="on_premises">
+                      <a
+                        href="https://sarv.com/on-premises"
+                        class="linkblur hasblur"
+                      >
+                        <span class="icon-img icononpremises"></span>On
+                        Premises</a
+                      >
+                      <div class="popup-over blur">
+                        <h2 class="onpre">
+                          <a class="link" href="https://sarv.com/on-premises">
+                            <div
+                              class="icon-img icononpremises-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -8px;
+                              "
+                            >
+                              On Premises
+                            </div>
+                          </a>
+                        </h2>
+                        <p>
+                          Our Cloud Telephony Dot device deliver on your
+                          premises - a full-scale version of the cloud
+                          management module.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sarv_new">
+                    <div class="bulksms">
+                      <a
+                        class="linkblur hasblur"
+                        href="https://sarv.com/bulk-sms"
+                        >Bulk SMS
+                        <span class="icons icon-img iconbulksms"></span>
+                      </a>
+                      <div class="popup-over blur">
+                        <h2 class="pink">
+                          <a class="leftlink" href="https://sarv.com/bulk-sms">
+                            <div
+                              class="icon-img iconbulksms-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -8px;
+                              "
+                            >
+                              Bulk SMS
+                            </div></a
+                          >
+                        </h2>
+                        <p>
+                          A Powerful and user friendly SMS platform will help
+                          you to communicate, interact and transact with your
+                          target audience.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="tollfree">
+                      <a
+                        class="linkblur hasblur"
+                        href="https://sarv.com/tollfree-number"
+                        >Toll-Free Number
+                        <span class="icons icon-img icontollfree"></span
+                      ></a>
+                      <div class="toll popup-over blur">
+                        <h2 class="lightblue">
+                          <a
+                            class="leftlink"
+                            href="https://sarv.com/tollfree-number"
+                          >
+                            <div
+                              class="icon-img icontollfree-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -8px;
+                              "
+                            >
+                              Toll-Free Number
+                            </div></a
+                          >
+                        </h2>
+                        <p>
+                          Let your clients be connected to you freely and give
+                          your business an edge with Toll Free Number.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="voice_broadcasting">
+                      <a
+                        class="linkblur hasblur"
+                        href="https://sarv.com/voice-broadcast"
+                        >Voice Broadcasting
+                        <span class="icon icon-img iconvoicebrocast"></span
+                      ></a>
+                      <div class="voice popup-over blur">
+                        <h2 class="yellow">
+                          <a
+                            class="leftlink"
+                            href="https://sarv.com/voice-broadcast"
+                          >
+                            <div
+                              class="icon-img iconvoicebrocast-pophov"
+                              style="display: inline-block;"
+                            ></div>
+                            <div
+                              style="
+                                display: inline-block;
+                                position: relative;
+                                top: -8px;
+                              "
+                            >
+                              Voice Broadcasting
+                            </div>
+                          </a>
+                        </h2>
+                        <p class="font">
+                          Deliver your pre-recorded message or voice message to
+                          thousands of targeted audience at a time and generate
+                          leads.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="background-color: transparent;" class="automation">
+                  <div class="crm">
+                    <a class="linkblur hasblur">
+                      <div class="crmicon">
+                        <span class="icon-img icononecrm"> </span>
+                      </div>
+                      One CRM</a
+                    >
+                    <div class="new popup-over blur">
+                      <h2 class="pink">
+                        <div class="icon-img icononecrm"></div>
+                        <div
+                          style="
+                            display: inline-block;
+                            position: relative;
+                            top: -5px;
+                          "
+                        >
+                          One CRM
+                        </div>
+                      </h2>
+                      <p>
+                        Connect your services / products to your favourite CRM
+                        system with our API and Webhooks.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marketing">
+                    <a
+                      class="linkblur hasblur"
+                      href="https://sarv.com/email-marketing/features/automation/"
+                    >
+                      <div class="marketingicon">
+                        <span class="icon-img iconmarketing"></span>
+                      </div>
+                      Marketing Automation</a
+                    >
+                    <div class="new popup-over blur">
+                      <h2 class="lightblue">
+                        <span class="icon-img iconmarketing"></span>
+                        <div
+                          style="
+                            display: inline-block;
+                            position: relative;
+                            top: -7px;
+                          "
+                        >
+                          Marketing Automation
+                        </div>
+                      </h2>
+                      <p>
+                        Simple and powerful marketing automation helps you to
+                        set up a sequence of marketing campaigns.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="arrowone linkblur hasblur">
+                  <img
+                    src="https://sarv.com/inc/images/arrow.png"
+                    tittle="arrow"
+                    alt="arrow"
+                  />
+                </div>
+                <div class="arrotwo linkblur hasblur">
+                  <img
+                    src="https://sarv.com/inc/images/arrow.png"
+                    tittle="arrow"
+                    alt="arrow"
+                  />
+                </div>
+                <div class="lineone linkblur hasblur"></div>
+                <div class="linetwo linkblur hasblur"></div>
+                <div class="linethree linkblur hasblur"></div>
+                <div class="linefour linkblur hasblur"></div>
+                <div class="email">
+                  <div class="transactional">
+                    <a
+                      class="linkblur hasblur"
+                      href="https://sarv.com/transactional-email"
+                    >
+                      <div class="icon">
+                        <span class="icon-img icontran-email"></span>
+                      </div>
+                      Transactional<br />Email</a
+                    >
+                    <div class="new popup-over blur trans-popup-txt">
+                      <h2 class="broun">
+                        <a
+                          class="link"
+                          href="https://sarv.com/transactional-email"
+                          style="font-size: 15px; margin-top: 0px;"
+                        >
+                          <span class="icon-img icontran-email"></span>
+                          <div
+                            style="
+                              display: inline-block;
+                              position: relative;
+                              top: -5px;
+                            "
+                          >
+                            Transactional Email
+                          </div>
+                        </a>
+                      </h2>
+                      <p>
+                        Send emails and track real time statistics with Sarv
+                        transactional email services. Easily integrate via SMTP
+                        or API.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="omni">
+                    <a class="linkblur hasblur"
+                      ><div class="icon">
+                        <span class="icon-img iconomnichannel"></span>
+                      </div>
+                      <br />
+                      Omni<br />Channel OTP</a
+                    >
+                    <div class="new popup-over blur">
+                      <h2 class="purple">
+                        <span class="icon-img iconomnichannel"></span>
+                        <div
+                          style="
+                            display: inline-block;
+                            position: relative;
+                            top: -5px;
+                          "
+                        >
+                          Omni Channel OTP
+                        </div>
+                      </h2>
+                      <p>
+                        An omni-channel platform that fits almost any industry
+                        and every size of business. All channels under one roof
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marketing">
+                    <a
+                      class="linkblur hasblur"
+                      href="https://sarv.com/email-marketing"
+                    >
+                      <div class="icon">
+                        <span class="icon-img icon-emailmar"></span>
+                      </div>
+                      <br />
+                      Email<br />Marketing</a
+                    >
+                    <div class="email-over blur">
+                      <h2 class="green">
+                        <a class="link" href="https://sarv.com/email-marketing"
+                          ><span class="icon-img icon-emailmar"></span>
+                          <div
+                            style="
+                              display: inline-block;
+                              position: relative;
+                              top: -5px;
+                            "
+                          >
+                            Email Marketing
+                          </div>
+                        </a>
+                      </h2>
+                      <p>
+                        Convince your customers with efficient designs. Era of
+                        Speedy, Automated, Segmented and A/B tested mailing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="animation_back purple"></div>
@@ -405,5 +848,987 @@
         </p>
       </div>
     </div>
+    <div
+      class="container mt-5 pt-5 home-ivr-flow webflow"
+      style="position: relative; height: 750px;"
+    >
+      <div class="flow-row">
+        <div class="node-row firstrow">
+          <i class="fas fa-phone-volume"></i> Incoming Call
+        </div>
+      </div>
+      <div class="flow-row">
+        <div class="node-row addnode">
+          <i class="fas fa-plus"></i>
+          <div class="select-module-box">
+            <div class="title23">
+              List of Module
+              <span
+                >Combine our powerful modules to supercharge your IVR. Module
+                report gives you insights that drive results.</span
+              >
+            </div>
+            <ul class="row">
+              <li class="col-md-3 m_announcment">
+                <i class="fas fa-volume-up"></i> Announcement
+              </li>
+              <li class="col-md-3 m_dtmf">
+                <i class="fas fa-tty"></i> DTMF(Key Press)
+              </li>
+
+              <li class="col-md-3 m_webhook">
+                <i class="fas fa-link"></i> Webhook
+              </li>
+              <li class="col-md-3 m_dtmf no-right-border">
+                <i class="fas fa-tty"></i> Long-DTMF
+              </li>
+              <li class="col-md-3 m_calltransfer">
+                <i class="fas fa-external-link-alt"></i> Call Transfer
+              </li>
+              <li class="col-md-3 m_ringtone">
+                <i class="fas fa-music"></i> Ringtone
+              </li>
+              <li class="col-md-3 m_voicemail">
+                <i class="fab fa-slack-hash"></i> Docket
+              </li>
+              <li class="col-md-3 m_speechtotext no-right-border">
+                <i class="far fa-comment-alt"></i> Voice-To-Text
+              </li>
+              <li class="col-md-3 m_hangup">
+                <i class="far fa-times-circle"></i> Hangup / End Call
+              </li>
+              <li class="col-md-3 m_answercall">
+                <i class="fas fa-phone-volume"></i> Answer Call
+              </li>
+              <li class="col-md-3 m_ringsignal">
+                <i class="fas fa-signal"></i> RingSignal
+              </li>
+              <li class="col-md-3 m_webhook no-right-border">
+                <i class="far fa-comments"></i> SMS
+              </li>
+              <li style="border-bottom: none;" class="col-md-3 m_ringsignal">
+                <i class="fas fa-microphone"></i> Voice Mail
+              </li>
+              <li style="border-bottom: none;" class="col-md-3 m_hangup">
+                <i class="fas fa-rocket"></i> Go To
+              </li>
+              <li style="border-bottom: none;" class="col-md-3 m_announcment">
+                <i class="fas fa-mobile-alt"></i> If-else
+              </li>
+              <li style="border-bottom: none;" class="col-md-3 no-right-border">
+                <i class="far fa-clock"></i> Wait
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flow-row">
+        <div class="node-row ringtone">
+          <font class="module_name"><i class="fas fa-music"></i> Ringtone</font>
+          <div class="module-info">
+            <div class="popoverheading">
+              <i class="fas fa-music"></i> Ringtone
+            </div>
+            <p>
+              The message which you deliver to caller before the call is
+              answered. You are facilitated to choose the type of audio/music
+              you wish to play before the call gets answered.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-row">
+        <div class="node-row fourthrow webhooknode webhook-first">
+          <font class="module_name"><i class="fas fa-link"></i> Webhook </font>
+          <div class="module-info">
+            <div class="popoverheading">
+              <i class="fas fa-link"></i> Webhook
+            </div>
+            <p>
+              The API which enables you to transfer data from an IVR call to
+              your web server and get the data from the server when required.
+            </p>
+          </div>
+          <div class="crmnode">CRM</div>
+        </div>
+      </div>
+      <div class="flow-row" style="width: 600px; margin: 0 auto;">
+        <div class="row">
+          <div class="col pl-0 pr-0">
+            <div class="flow-row">
+              <div class="node-row newcustmor text-left">
+                <span><i class="fas fa-user-plus"></i> New User</span>
+              </div>
+            </div>
+            <div class="flow-row node-eight">
+              <div class="node-row answercallnode">
+                <font class="module_name"
+                  ><i class="fas fa-phone-volume"></i> Answer Call</font
+                >
+                <div class="module-info">
+                  <div class="popoverheading">
+                    <i class="fas fa-phone-volume"></i> Answer Call
+                  </div>
+                  <p>
+                    During the flow of IVR, decide the point where you need to
+                    answer the call. Decide the modules you want to use before
+                    or after the call is answered.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flow-row node-eight" style="margin-top: 25px;">
+              <div class="node-row announcementnode">
+                <font class="module_name"
+                  ><i class="fas fa-volume-up"></i> Announcement
+                </font>
+                <div class="module-info">
+                  <div class="popoverheading">
+                    <i class="fas fa-volume-up"></i> Announcement
+                  </div>
+                  <p>
+                    Caller will receive an announcement when call is answered.
+                    Create an announcement in three ways - Voice, Text to speech
+                    and Webhook.
+                  </p>
+                </div>
+                <span><i class="fas fa-tty"></i> DTMF input</span>
+              </div>
+            </div>
+
+            <div class="flow-row node-nine">
+              <div class="three_col_sec">
+                <div class="row">
+                  <div class="col pl-0 pr-0">
+                    <div class="flow-row">
+                      <div class="node-row col-partham text-left"></div>
+                    </div>
+                    <div style="margin-top: 23px; margin-left: -119px;">
+                      <div class="flow-row">
+                        <div class="node-row nodesalse">
+                          <i class="fas fa-shopping-basket"></i> Sales
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row calltransfernode">
+                          <font class="module_name"
+                            ><i class="fas fa-external-link-alt"></i> Call
+                            Transfer</font
+                          >
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="fas fa-external-link-alt"></i> Call
+                              Transfer
+                            </div>
+                            <p>
+                              Easily transfer the call to another
+                              agent/department without disconnecting the call.
+                              We also offer dynamic tag feature with call
+                              transfer.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row fourthrow webhooknode">
+                          <font class="module_name"
+                            ><i class="fas fa-link"></i> Webhook</font
+                          >
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="fas fa-link"></i> Webhook
+                            </div>
+                            <p>
+                              The API which enables you to transfer data from an
+                              IVR call to your web server and get the data from
+                              the server when required.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row endnode">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col pl-0 pr-0">
+                    <div class="flow-row">
+                      <div class="node-row col-divitiya text-center"></div>
+                    </div>
+                    <div style="margin-top: 23px;">
+                      <div class="flow-row">
+                        <div class="node-row nodesupport">
+                          <i class="fas fa-calculator"></i> Support
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row endnode">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col pl-0 pr-0">
+                    <div class="flow-row">
+                      <div class="node-row col-tritiya text-right"></div>
+                    </div>
+                    <div style="margin-top: 23px; margin-right: -126px;">
+                      <div class="flow-row">
+                        <div class="node-row nodeaccount">
+                          <i class="fas fa-life-ring"></i> Account
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row voicemailnode">
+                          <font class="module_name"
+                            ><i class="fas fa-file-audio"></i> Voicemail</font
+                          >
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="fas fa-file-audio"></i> Voicemail
+                            </div>
+                            <p>
+                              Calls will be directed to go to a personalize
+                              voicemail if Your Phone is in use or you're unable
+                              to answer.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row fourthrow sppech2textnode">
+                          <font class="module_name"
+                            ><i class="far fa-comment-alt"></i> Speech to
+                            Text</font
+                          >
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="far fa-comment-alt"></i> Speech to Text
+                            </div>
+                            <p>
+                              Using the human voice as an interface and change
+                              the customer service performance.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row endnode">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col pl-0 pr-0">
+            <div class="flow-row">
+              <div class="node-row oldcustmor text-center">
+                <span><i class="fas fa-user"></i> Old User</span>
+              </div>
+            </div>
+            <div class="flow-row" style="margin-top: 64px;">
+              <div class="node-row answercallnode">
+                <font class="module_name"
+                  ><i class="fas fa-phone-volume"></i> Answer Call
+                </font>
+                <div class="module-info">
+                  <div class="popoverheading">
+                    <i class="fas fa-phone-volume"></i> Answer Call
+                  </div>
+                  <p>
+                    During the flow of IVR, decide the point where you need to
+                    answer the call. Decide the modules you want to use before
+                    or after the call is answered.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flow-row" style="margin-top: 25px;">
+              <div class="node-row announcementnode2">
+                <font class="module_name"
+                  ><i class="fas fa-volume-up"></i> Announcement
+                </font>
+                <div class="module-info">
+                  <div class="popoverheading">
+                    <i class="fas fa-volume-up"></i> Announcement
+                  </div>
+                  <p>
+                    Caller will receive an announcement when call is answered.
+                    Create an announcement in three ways - Voice, Text to speech
+                    and Webhook.
+                  </p>
+                </div>
+                <span><i class="fas fa-tty"></i> DTMF input</span>
+              </div>
+            </div>
+            <div
+              class="flow-row node-nine"
+              style="margin-left: 0px; margin-top: 0px;"
+            >
+              <div class="three_col_sec" style="left: 119px;">
+                <div class="row">
+                  <div class="col pl-0 pr-0">
+                    <div class="flow-row">
+                      <div class="node-row col-partham text-left"></div>
+                    </div>
+                    <div style="margin-top: 23px; margin-left: -119px;">
+                      <div class="flow-row">
+                        <div class="node-row nodesalse">
+                          <i class="fas fa-shopping-basket"></i> Sales
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row calltransfernode">
+                          <font class="module_name"
+                            ><i class="fas fa-external-link-alt"></i> Call
+                            Transfer
+                          </font>
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="fas fa-external-link-alt"></i> Call
+                              Transfer
+                            </div>
+                            <p>
+                              Easily transfer the call to another
+                              agent/department without disconnecting the call.
+                              We also offer dynamic tag feature with call
+                              transfer.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row endnode">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col pl-0 pr-0">
+                    <div class="flow-row">
+                      <div class="node-row col-tritiya text-right"></div>
+                    </div>
+                    <div
+                      style="margin-top: 23px; margin-right: -190px;"
+                      class="flowrgtmargin"
+                    >
+                      <div class="flow-row">
+                        <div class="node-row nodeaccount">
+                          <i class="fas fa-life-ring"></i> Account
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row voicemailnode">
+                          <font class="module_name"
+                            ><i class="fas fa-file-audio"></i> Voicemail</font
+                          >
+                          <div class="module-info">
+                            <div class="popoverheading">
+                              <i class="fas fa-file-audiot"></i> Voicemail
+                            </div>
+                            <p>
+                              Calls will be directed to go to a personalize
+                              voicemail if Your Phone is in use or you're unable
+                              to answer.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flow-row">
+                        <div class="node-row endnode">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col pl-0 pr-0">
+            <div class="flow-row">
+              <div class="node-row blacklisted text-right">
+                <span><i class="fas fa-user-secret"></i> Black Listed</span>
+              </div>
+            </div>
+            <div class="flow-row text-right" style="margin-top: 64px;">
+              <div class="node-row endcall">
+                <font class="module_name"
+                  ><i class="far fa-times-circle"></i> END</font
+                >
+                <div class="module-info">
+                  <div class="popoverheading">
+                    <i class="far fa-times-circle"></i> END
+                  </div>
+                  <p>
+                    When a blacklisted contact call you the call ends
+                    automatically.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flow-row text-right">
+              <div class="node-row endnode" style="margin-right: -18px;">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style type="text/css">
+        .ivt_ftr_slide .carousel-item {
+          height: 150px;
+        }
+        .carousel-indicators.ivrflw {
+          bottom: 0px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+        }
+        .carousel-indicators.ivrflw li {
+          background: #eee;
+          cursor: pointer;
+        }
+        .carousel-indicators.ivrflw li.active {
+          background: #bbb;
+        }
+      </style>
+
+      <div class="feature-indicator first">
+        <div
+          id="ivr_ftr_1"
+          class="carousel ivt_ftr_slide slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://sarv.com/inc/images/icons/home/ivr-design.svg"
+                title="IVR"
+                width="50"
+                alt="IVR Design"
+              />
+              <h3>IVR Design</h3>
+              <p>
+                Smart technology that can handle a <br />large volume of inbound
+                calls
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://sarv.com/inc/images/icons/home/icon-empoweragent.svg"
+                title="Empower Agents"
+                width="50"
+                alt="Empower Agents"
+              />
+              <h3>Empower Agents</h3>
+              <p>
+                Add multiple agents each with specific <br />role and group to
+                segregate work
+              </p>
+            </div>
+          </div>
+          <ol class="carousel-indicators ivrflw">
+            <li data-target="#ivr_ftr_1" data-slide-to="0" class="active"></li>
+            <li data-target="#ivr_ftr_1" data-slide-to="1" class=""></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="feature-indicator second">
+        <div
+          id="ivr_ftr_2"
+          class="carousel ivt_ftr_slide slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                src="https://sarv.com/inc/images/icons/home/icon-live-monitoring.svg"
+                title="Live Monitoring"
+                width="50"
+                alt="Live Monitoring"
+              />
+              <h3>Live Monitoring</h3>
+              <p>
+                Monitor every step of Live Calls in <br />
+                panel to track the current activity
+              </p>
+            </div>
+            <div class="carousel-item active">
+              <img
+                src="https://sarv.com/inc/images/icons/home/icon-advance-routing.svg"
+                title="Advanced Routing"
+                width="50"
+                alt="Advanced Routing"
+              />
+              <h3>Advanced Routing</h3>
+              <p>
+                Route your callers to the right agent, team or department based
+                on custom criterias.
+              </p>
+            </div>
+          </div>
+          <ol class="carousel-indicators ivrflw">
+            <li data-target="#ivr_ftr_2" data-slide-to="0" class=""></li>
+            <li data-target="#ivr_ftr_2" data-slide-to="1" class="active"></li>
+          </ol>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="ivr-flow-img webdisplaynone"></div>
+    </div>
+    <div class="container mt-0 email-marketing-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12 mob-homefeature">
+          <div
+            class="service_descrption email-marketing-txt text-center margintop40"
+          >
+            <a href="https://sarv.com/email-marketing" title="Email Marketing"
+              >Email Marketing</a
+            >
+            <p class="serp">
+              Email Marketing is the heart of communication. Email Service is
+              the most efficient, reliable and flexible way to reach your
+              customers. Email Campaigns help you to understand your subscribers
+              more efficiently.
+            </p>
+          </div>
+          <!-- FOR MOBILE RESPONSIVE -->
+          <!-- <div class="text-right screebshot-panel webdisplaynone">
+            <div class="desktop_screen mt-0">
+              <img
+                src="https://sarv.com/inc/images/email-marketing-screen.png"
+                title="Email Marketing"
+                alt="Email Marketing"
+              />
+            </div>
+          </div> -->
+          <!-- FOR MOBILE END RESPONSIVE -->
+
+          <div class="feature_io pt-3 email-marketing-feature">
+            <ul>
+              <li class="border-green">
+                <span
+                  ><img
+                    src="https://sarv.com/inc/images/icons/home/responsive-email.svg"
+                    title="Responsive Emails"
+                    width="55"
+                    alt="Responsive Emails"
+                /></span>
+                <h4>Responsive Emails</h4>
+                <p>
+                  Now easily design a responsive email and view it on any
+                  device. It may be a Laptop, Mobile or Tablet.
+                </p>
+              </li>
+              <li class="border-purple">
+                <span
+                  ><img
+                    src="https://sarv.com/inc/images/icons/home/email.svg"
+                    title="Spam Analysis"
+                    width="55"
+                    alt="Spam Analysis"
+                /></span>
+                <h4>Spam Analysis</h4>
+                <p>
+                  Now analyze all your email elements to make sure your campaign
+                  will not hit SPAM.
+                </p>
+              </li>
+              <li class="border-yellow">
+                <span
+                  ><img
+                    src="https://sarv.com/inc/images/icons/home/manage-subscribers.svg"
+                    title="Manage Subscribers"
+                    width="50"
+                    alt="Manage Subscribers"
+                /></span>
+                <h4>Manage Subscribers</h4>
+                <p>
+                  Manage your subscribers in multiple contact lists in the real
+                  time. Add custom fields to personalize their information.
+                </p>
+              </li>
+              <li class="border-red">
+                <span
+                  ><img
+                    src="https://sarv.com/inc/images/icons/home/image.svg"
+                    title="Image Editor"
+                    width="48"
+                    alt="Image Editor"
+                /></span>
+                <h4>Image Editor</h4>
+                <p>
+                  Now customize and edit your photos while creating your email
+                  newsletter with help of image editor.&#8203;
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-right screebshot-panel mobdisplaynone">
+          <div class="desktop_screen mt-0">
+            <img
+              src="https://sarv.com/inc/images/email-marketing-screen.png"
+              title="Email Marketing"
+              alt="Email Marketing"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5 pb-5 margintop40 transactional-email-section">
+      <div class="row">
+        <div class="screenshot-lftpanel text-left col-12 mobdisplaynone">
+          <div class="desktop_screen">
+            <img
+              src="https://sarv.com/inc/images/transactional-screen.png"
+              title="Transactional Email"
+              alt="Transactional Email"
+            />
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6"></div>
+        <div
+          class="col-md-12 col-lg-6 minus-mar-top20 mobpadlr0"
+          style="float: right;"
+        >
+          <div class="service_descrption text-center">
+            <a
+              class=""
+              href="https://sarv.com/transactional-email"
+              title="Transactional Email"
+              >Transactional Email</a
+            >
+            <p class="serp">
+              Sarv Transactional Email Service (Sarv TES) is Pay as your uses
+              service with real-time easy access to your statistics like open,
+              click, bounce, delivered, complaints on Dashboard &amp; HTTP API
+              with Webhooks method in JSON, XML and POST data structure.
+            </p>
+          </div>
+          <!-- FOR MOBILE RESPONSIVE -->
+          <!-- <div class="screenshot-lftpanel text-left col-12 webdisplaynone">
+            <div class="desktop_screen">
+              <img
+                src="https://sarv.com/inc/images/transactional-screen.png"
+                title="Transactional Email"
+                alt="Transactional Email"
+              />
+            </div>
+          </div> -->
+          <!-- FOR MOBILE END RESPONSIVE -->
+
+          <div class="feature_io pt-3">
+            <ul>
+              <li>
+                <img
+                  src="https://sarv.com/inc/images/icons/home/icon-developer.svg"
+                  title="Build for Developers"
+                  width="60"
+                  alt="Build for Developers"
+                />
+                <h4>Build for Developers</h4>
+                <p>Supports API includes PHP, <br />Python, Node Js</p>
+              </li>
+              <li>
+                <img
+                  src="https://sarv.com/inc/images/icons/home/domain.svg"
+                  title="Truly White-labeling"
+                  width="45"
+                  alt="Truly Whitelabeling"
+                />
+                <h4>Truly White-labeling</h4>
+                <p>Send email with customize <br />domain, IP address</p>
+              </li>
+              <li>
+                <img
+                  src="https://sarv.com/inc/images/icons/home/icon-ip-routing.svg"
+                  title="Advance IP Routing"
+                  width="50"
+                  alt="Advance IP Routing"
+                />
+                <h4>Advance IP Routing</h4>
+                <p>User decide which type of mail to deliver via which IP</p>
+              </li>
+              <li>
+                <img
+                  src="https://sarv.com/inc/images/icons/home/save-money.svg"
+                  title="Pay as you Go"
+                  width="50"
+                  alt="Pay as you Go"
+                />
+                <h4>Pay as you Go</h4>
+                <p>Make you pay the amount as per <br />monthly usage</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wallet-section mt-5">
+      <div class="container">
+        <h2 class="pageheading text-center mb-5">
+          Divesh Wallet : A way to use your money intelligently
+          <span class="tagline"
+            >The users can use the wallet money for purchasing products from
+            Sarv</span
+          >
+        </h2>
+        <div class="row">
+          <div class="col-md-12 col-lg-7 wallet-img">
+            <img
+              src="https://sarv.com/inc/images/wallet-iimages.png"
+              title="Maximize the Benefits of Sarv Wallet System"
+              alt="Maximize the Benefits of Sarv Wallet System"
+            />
+          </div>
+
+          <div class="col-md-12 col-lg-5 wallet-feature">
+            <ul class="row justify-content-center list-unstyled">
+              <li class="col-md-12">
+                <i class="fas fa-check-square"></i>
+                <div class="wallet-feature">
+                  <h3>Store money in a digital wallet</h3>
+                  <p>
+                    The users can use the wallet money for purchasing products
+                    from Sarv
+                  </p>
+                </div>
+              </li>
+              <li class="col-md-12">
+                <i class="fas fa-check-square"></i>
+                <div class="wallet-feature">
+                  <h3>Drive more business and revenue</h3>
+                  <p>
+                    Wallet is hassle free that can help you to drive more
+                    revenue and business.
+                  </p>
+                </div>
+              </li>
+              <li class="col-md-12">
+                <i class="fas fa-check-square"></i>
+                <div class="wallet-feature">
+                  <h3>Add your fund once and use in any service</h3>
+                  <p>
+                    Easy rotation of money makes the process further easy and
+                    losses are the least.
+                  </p>
+                </div>
+              </li>
+              <li class="col-md-12">
+                <i class="fas fa-check-square"></i>
+                <div class="wallet-feature">
+                  <h3>All money you paid is safe</h3>
+                  <p>
+                    We secure your money, ensuring that no unauthorized
+                    transactions are made.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="author-quote-wrap">
+      <input class="toggle-quote" type="radio" id="AQ-1" name="quote" checked />
+      <div class="author-quote">
+        <div class="pull-left author-photo photo-a animated bounceInLeft">
+          <div class="navigate">
+            <label class="label left" for="AQ-5">&nbsp;</label>
+            <label class="label right" for="AQ-2">&nbsp;</label>
+          </div>
+        </div>
+        <div class="pull-right quote-content">
+          <div class="clearfix animated zoomIn">
+            <div class="quote-like pull-right">
+              <span class="love"></span> 423
+            </div>
+          </div>
+          <div class="quote-text animated rotateInDownRight">
+            Don't You<br />Think That<br />If I Were<br />Wrong,<br />I'd Know
+            It?
+          </div>
+          <div class="quote-author animated lightSpeedIn">Sheldon Cooper</div>
+        </div>
+      </div>
+      <input class="toggle-quote" type="radio" id="AQ-2" name="quote" />
+      <div class="author-quote">
+        <div class="pull-left author-photo photo-b animated bounceInLeft">
+          <div class="navigate">
+            <label class="label left" for="AQ-1">&nbsp;</label>
+            <label class="label right" for="AQ-3">&nbsp;</label>
+          </div>
+        </div>
+        <div class="pull-right quote-content">
+          <div class="clearfix animated zoomIn">
+            <div class="quote-like pull-right">
+              <span class="love"></span> 512
+            </div>
+          </div>
+          <div class="quote-text animated zoomInDown">
+            My Goal Was<br />To Prove<br />To My Family<br />I wasn't a dummy
+          </div>
+          <div class="quote-author animated lightSpeedIn">Ronalda Colen</div>
+        </div>
+      </div>
+      <input class="toggle-quote" type="radio" id="AQ-3" name="quote" />
+      <div class="author-quote">
+        <div class="pull-left author-photo photo-c animated bounceInLeft">
+          <div class="navigate">
+            <label class="label left" for="AQ-2">&nbsp;</label>
+            <label class="label right" for="AQ-4">&nbsp;</label>
+          </div>
+        </div>
+        <div class="pull-right quote-content">
+          <div class="clearfix animated zoomIn">
+            <div class="quote-like pull-right">
+              <span class="love"></span> 618
+            </div>
+          </div>
+          <div class="quote-text animated bounceInRight">
+            Smart-Phones.<br />Who Cares?<br />Smart-Phones.<br />I Only Have<br />Dummy
+            Phones
+          </div>
+          <div class="quote-author animated lightSpeedIn">Don Rickles</div>
+        </div>
+      </div>
+      <input class="toggle-quote" type="radio" id="AQ-4" name="quote" />
+      <div class="author-quote">
+        <div class="pull-left author-photo photo-d animated bounceInLeft">
+          <div class="navigate">
+            <label class="label left" for="AQ-3">&nbsp;</label>
+            <label class="label right" for="AQ-5">&nbsp;</label>
+          </div>
+        </div>
+        <div class="pull-right quote-content">
+          <div class="clearfix animated zoomIn">
+            <div class="quote-like pull-right">
+              <span class="love"></span> 741
+            </div>
+          </div>
+          <div class="quote-text animated lightSpeedIn">
+            Design<br />Means<br />Being Good<br />Not Just<br />Looking Good
+          </div>
+          <div class="quote-author animated lightSpeedIn">Jacquie Dermody</div>
+        </div>
+      </div>
+      <input class="toggle-quote" type="radio" id="AQ-5" name="quote" />
+      <div class="author-quote">
+        <div class="pull-left author-photo photo-e animated bounceInLeft">
+          <div class="navigate">
+            <label class="label left" for="AQ-4">&nbsp;</label>
+            <label class="label right" for="AQ-1">&nbsp;</label>
+          </div>
+        </div>
+        <div class="pull-right quote-content">
+          <div class="clearfix animated zoomIn">
+            <div class="quote-like pull-right">
+              <span class="love"></span> 824
+            </div>
+          </div>
+          <div class="quote-text animated flipInX">
+            Design<br />Is<br />Thinking<br />Made<br />Visible
+          </div>
+          <div class="quote-author animated lightSpeedIn">Mohan Khadka</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid get-started text-center">
+      <h1>Ready To Get Started?</h1>
+      <p>
+        Enjoy the experience, Sarv is the right choice for you and your
+        business!
+      </p>
+      <button class="btnStart shadow">
+        Get Started Today
+        <!-- <div class="btnStart2"></div> -->
+      </button>
+    </div>
+    <!-- Footer Start -->
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">Footer Content</h5>
+            <p>
+              Here you can use rows and columns to organize your footer content.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="/">Techedemy</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
   </body>
 </html>
